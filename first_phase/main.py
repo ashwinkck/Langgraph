@@ -20,3 +20,9 @@ graph_builder.add_edge(START, "greet")
 graph_builder.add_edge("greet",END)
 # Compiling
 graph = graph_builder.compile()
+#Executing
+result = graph.invoke(
+    {
+        "message":"Hello World!"
+    }
+)
