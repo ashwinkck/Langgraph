@@ -26,3 +26,4 @@ result = graph.invoke(
         "message":"Hello World!"
     }
 )
+print(result)
