@@ -18,3 +18,5 @@ graph_builder.add_node("greet",greet)
 #Connect the graph
 graph_builder.add_edge(START, "greet")
 graph_builder.add_edge("greet",END)
+# Compiling
+graph = graph_builder.compile()
