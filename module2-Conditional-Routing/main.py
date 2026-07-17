@@ -1,3 +1,3 @@
 from typing import TypedDict
 class State(TypedDict):
-    number:int
+    number:int # with only one var
