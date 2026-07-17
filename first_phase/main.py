@@ -15,3 +15,5 @@ def greet(state: State):
 graph_builder = StateGraph(State)
 #Add a Node
 graph_builder.add_node("greet",greet)
+#Connect the graph
+graph_builder.add_edge(START, "greet")
