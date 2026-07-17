@@ -11,3 +11,4 @@ def greet(state: State):
     return {
         "message": state["message"] + "Welcome to LangGraph!"
         }
+# Create the Graph
