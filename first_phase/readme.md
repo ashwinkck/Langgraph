@@ -1,0 +1,13 @@
+        START
+
+          │
+
+          ▼
+
+      Greeting Node
+
+          │
+
+          ▼
+
+       END
